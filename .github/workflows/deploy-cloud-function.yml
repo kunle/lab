@@ -41,7 +41,7 @@ jobs:
           name: test-lab
           runtime: node14
           project_id: pub-sub
-          credentials: ${{secrets.GCP_SA_KEY}}
+          credentials: ${{secrets.GCP_API_KEY}}
           # entry_point: functions.ILoveMkdev
 
       # - name: make the url aunthenticated
