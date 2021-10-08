@@ -39,7 +39,7 @@ jobs:
         uses: google-github-actions/deploy-cloud-functions@main
         with:
           name: test-lab
-          runtime: node10
+          runtime: node14
           project_id: pub-sub
           credentials: ${{secrets.GCP_SA_KEY}}
           # entry_point: functions.ILoveMkdev
